@@ -1,0 +1,76 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choicelang,choice,balance;
+
+    cout << "Welcome To Jio" << endl;
+    cout << "Gujrati Mate 1 Dabao : ";
+    cin >> choicelang;
+    cout << "Hindi Ke Liye 2 Dabaye : ";
+    cin >> choicelang;
+    cout << "For English Press 3 : ";
+    cin >> choicelang;
+
+    switch (choicelang)
+    {
+    case 1:
+        cout << "Balance Check Karva Mate 1 Dabao : ";
+        cout << "Recharge Mate 2 Dabao : ";
+        cout << "Plans Janva Mate 3 Dabao : ";
+        cout << "Mahiti Mate 4 Dabao : ";
+        cout << "Bahar Nikadva Mate 5 Dabavo : ";
+        cout << "Tamari Pasand Dakhal Karo : ";
+        cin >> choice;
+        switch (choice)
+        {
+        case 1:
+            cout << "Prepaid Mate 1 Dabao : ";
+            cout << "Postpaid Mate 2 Dabao : ";
+            cout << "Main Menu Ma Java Mate 3 Dabao : ";
+            cout << "Enter your choice: ";
+            cin >> balance;
+            switch (balance)
+            {
+            case 1:
+                cout << "Tamari prepaid balance $10. che";
+                break;
+            case 2:
+                cout << "Tamaru postpaid bill $50. che";
+                break;
+            case 3:
+                cout << "Main Menu";
+                break;
+            default:
+                cout << "Invalid choice.";
+                cout << "Main Menu....";
+                break;
+            }
+            break;
+        default:
+            break;
+        }
+        case 2:
+            break;
+        
+        default:
+            break;
+        }
+        
+        break;
+
+    default:
+        break;
+    }
+
+}
+
+switch (expression)
+{
+case /* constant-expression */:
+    /* code */
+    break;
+
+default:
+    break;
+}
